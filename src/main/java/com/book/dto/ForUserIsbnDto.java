@@ -10,6 +10,8 @@ import lombok.ToString;
 @ToString
 @Builder
 public class ForUserIsbnDto {
-
-    private String isbn;
+    private int id;
+    private String name;
+    private double price;
+    private String year;
 }

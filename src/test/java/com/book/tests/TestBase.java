@@ -8,7 +8,7 @@ public class TestBase {
     @BeforeMethod
     public void init() {
         RestAssured.baseURI = "http://localhost:8080/";
-        RestAssured.basePath = "api";
+        RestAssured.basePath = "api/book/";
 
     }
 }

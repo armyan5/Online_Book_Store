@@ -11,5 +11,8 @@ import lombok.ToString;
 @Builder
 public class ForUserAuthorDto {
 
-    private String author;
+    private int id;
+    private String name;
+    private double price;
+    private String year;
 }

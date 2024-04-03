@@ -11,5 +11,9 @@ import lombok.ToString;
 @Builder
 public class ForUserGenreDto {
 
-    private String genre;
+    private int id;
+    private String name;
+    private double price;
+    private String year;
+
 }
